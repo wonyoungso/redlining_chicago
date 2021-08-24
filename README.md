@@ -3,6 +3,7 @@
 This notebook contains the code and data for the paper "Legacies of Institutionalized Redlining: A Comparison Between Speculative and Implemented Mortgage Risk Maps in Chicago, Illinois" forthcoming in *Housing Policy Debate*. 
 
 Author: [Wenfei Xu](wenfeixu.com)
+Modified by [Wonyoung So](wonyoung.so)
 
 ## Citation
 If you would like to use the data and/or code from this repo, please use the following citation: 
@@ -23,6 +24,34 @@ URL = {
         https://doi.org/10.1080/10511482.2020.1858924    
 }
 ```
+
+
+### Create Virtual Environment
+
+First, create a virtual environment. If you don't have venv installed, install 
+it globally using:
+
+```bash
+sudo python -m pip install virtualenv
+```
+
+Then, create a new virtual environment---I like placing it in the root folder
+of the repository---and activate it.
+
+```bash
+# Create the environment...
+python -m virtualenv ./venv
+# ...and activate it.
+. ./venv/bin/activate
+```
+
+Finally, install dependencies!
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+
 
 ## Data
 The repo contains the following datasets: 
